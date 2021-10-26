@@ -1,0 +1,46 @@
+body {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  background-image: url(/sprites2-min.png);
+  background-repeat: no-repeat;
+  height: 65px;
+  width: 64px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 400px;
+  margin-right: 20px;
+}
+
+a {
+  transition: all 0.2s ease-out;
+}
+
+a.facebook {
+  background-position: left top;
+}
+a.twitter {
+  background-position: -66px top;
+}
+a.youtube {
+  background-position: -140px top;
+}
+a.instagram {
+  background-position: -200px top;
+}
+a.linkedin {
+  background-position: -270px top;
+}
+a.tumblr {
+  background-position: -335px top;
+}
+a.google {
+  background-position: -410px top;
+}
+
+a:hover {
+  background-position-y: bottom;
+}
