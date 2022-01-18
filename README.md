@@ -1,2 +1,2 @@
-Sprites for WEB page
-Search it in branch 'master'
+Sprites for WEB page,
+search it in branch 'master'.
